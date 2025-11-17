@@ -580,27 +580,27 @@ Try: /workflow show code-review
 
 1. View your learning dashboard:
    ```
-   /learning
+   /progress
    ```
 
 2. See your achievements:
    ```
-   /learning achievements
+   /progress achievements
    ```
 
-3. Check your current level:
+3. Check your statistics:
    ```
-   /learning stats
+   /progress stats
    ```
 
-4. View skill tree:
+4. View leaderboard:
    ```
-   /learning skills
+   /progress leaderboard
    ```
 
 **Example Output:**
 ```
-> /learning
+> /progress
 
 🎯 Learning Path Dashboard
 
@@ -625,12 +625,10 @@ Next Goal: Complete "Code Review" tutorial (+50 XP)
 
 **Learning commands:**
 ```
-/learning                - View dashboard
-/learning achievements   - Show all achievements
-/learning stats          - Detailed statistics
-/learning skills         - View skill tree
-/learning goals          - Set learning goals
-/learning streak         - View your streak
+/progress                - View dashboard
+/progress achievements   - Show all achievements
+/progress stats          - Detailed statistics
+/progress leaderboard    - View XP and level info
 ```
 
 **How to earn XP:**
@@ -982,7 +980,6 @@ Run these commands to reset all features:
 ```
 /wizard reset
 /onboarding reset
-/learning reset
 /playground reset
 ```
 
@@ -1018,7 +1015,7 @@ gemini              Start Gemini CLI
 /tutorial list      See available tutorials
 /suggest            Get smart suggestions
 /explain on         Turn on explanations
-/learning           View learning dashboard
+/progress           View learning dashboard
 ```
 
 **Practice:**
